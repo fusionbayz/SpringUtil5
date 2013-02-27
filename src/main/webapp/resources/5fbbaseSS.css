@@ -1,0 +1,262 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Body CSS classes
+-------------------------------------------------------*/
+
+body.fbbody{margin:0;padding:0;}
+.fbbody {font-size: 4.25 em;font-weight:bold;}
+
+
+/* Log in form attributes
+-------------------------------------------------------*/
+
+
+/** working  */
+
+
+.fbLogin .fbui_layout .LoginBox{width:485px;height:300px;margin:40px auto 10px;;padding:0;background-color:#fff;border:1px solid #359eed;}
+.fbLogin .fbui_layout .LoginBox .lotusHeading{margin-top:5px;margin-bottom:25px;font-size:1.83333em;font-weight:normal;}
+.fbLogin .fbui_layout .LoginBox .lotusHeading2{margin:20px 0 5px 0;font-size:1.1em;font-weight:bold;line-height:1.3;}
+.fbLogin .fbui_layout .LoginBox .lotusHeading2:first-child{margin-top:0;}
+
+.fbLogin .fbui_layout .LoginBox .LoginForm{width:300px;margin-left:5px;border:0px solid #ccc;border-right:0	px solid #ccc;padding-left:20px;}
+
+.lotusui_ie6 .fbui_layout .LoginBox .lotusFirst{margin-top:0;}
+
+.fbLogin .fbui_layout .LoginBoxWide{width:600px;}
+
+.fbLogin .fbui_layout .LoginForm{padding:20px 0;position:relative;}
+.fbLogin .fbui_layout .LoginForm .lotusBtnContainer{margin-top:10px;}
+.fbLogin .fbui_layout .LoginForm .lotusText{width:20em;}
+.fbLogin .fbui_layout .LoginForm .lotusFormField{width:auto;clear:none;margin:0;padding:0;margin-top:15px;}
+.fbLogin .fbui_layout .LoginForm label{margin-bottom:3px;}
+.fbLogin .fbui_layout .LoginForm .lotusIBMLogo{margin-top:25px;}
+
+.loginInfoGrp
+{
+position:relative;
+top:-275px;
+left:350px;
+}
+
+.fbLogin .fbui_layout .loginInfoInd
+{
+position:relative;
+left:0px;
+top:0px;
+width:225px;
+height:50px;
+border:0px;
+border-right:0px  solid #ccc;
+border-left:1px  solid #ccc;
+padding-left:5px;
+
+padding-bottom:5px;
+margin-top:0px;
+
+}
+
+.fbui .loginInfoInd p{margin:0;}
+
+
+.fbLogin .fbui_layout .loginTerms
+{
+position:relative;
+left:0px;
+top:0px;
+width:225px;
+height:50px;
+border:0px;
+border-right:0px  solid #ccc;
+border-left:1px  solid #ccc;
+padding-left:5px;
+font-size:.9em;
+color:#666;
+padding-bottom:5px;
+margin-top:0px;
+
+}
+
+.banner
+{
+padding-top:0px;
+padding-bottom:3px;
+height:42px;
+font-size:1.3em;
+color:#fff;
+background-color:#359eed;
+margin:0px;
+}
+
+.bannerLvl2
+{
+height:5px;
+font-size:0.5em;
+color:#fff;
+background-color:#666;
+margin:0px;
+}
+
+.bannerLvl3
+{
+height:25px;
+font-size:0.5em;
+color:#fff;
+background-color:#E6E6E6;
+margin:0px;
+}
+
+.banner .logo
+{
+color:#fff;
+font-size:1.7em;
+margin-top:.0em;padding:3px 100px;
+
+}
+
+.banner .logo .fusion
+{
+font-weight:bold;
+font-family:Biondi;
+}
+
+.banner .logo .bayz
+{
+font-family:Times New Roman;
+}
+
+.fbui .LoginWarn
+{
+position:relative;
+margin:0px;
+margin-top:-10px;
+margin-left:385px;
+margin-right;50
+width:100;
+border:0px solid #aaa;
+padding:0px 0px
+}
+
+.LoginWarn .LoginWarnInfo
+{
+font-size:.9em;
+color:#666;
+padding-right:10;
+}
+
+.lotusui30 .lotusCaption{margin-top:.2em;padding:2px 5px;height:2em;line-height:2;clear:both;text-align:center;background-color:#fafafa;border:1px solid #ccc;}
+
+
+/***** Buttons ****/
+
+.button {
+	background-color: #666;
+
+	border-radius: 0px;
+	border: 0px solid #999;
+
+	text-decoration: none;
+	color: #fff !important;
+	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.35);
+	padding: 3px 10px;
+	font: light 15px/15px "proxima-nova", "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+.button1 {
+	background-color: #666;
+
+	border-radius: 5px;
+	border: 0px solid #999;
+	-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.28),
+		inset 0px 1px 0px #666,
+		inset 0px -1px 0px #666,
+		inset 1px 0px 0px #666,
+		inset -1px 1px 0px #666;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.28),
+		inset 0px 1px 0px #f5d9bd,
+		inset 0px -1px 0px #f5d9bd,
+		inset 1px 0px 0px #f5d9bd,
+		inset -1px 1px 0px #f5d9bd;
+	text-decoration: none;
+	color: #fff !important;
+	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.35);
+	padding: 5px 5px;
+	font: light 10px/10px "proxima-nova", "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+.button:hover {
+	background-color:#359eed;
+	border-radius: 0px;
+	border: 0px solid #999;
+
+	text-decoration: none;
+	color: #fff !important;
+	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.35);
+	padding: 3px 10px;
+                font-color:#666;
+	font: light 15px/15px "proxima-nova", "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+
+}
+
+/** -------------- */
+.fbui p{margin:5px 0 0 0;}
+.fbui_fonts{font:75%/1.5 Arial, Helvetica, sans-serif;}
+
+.fbui a,
+.fbui a:visited{text-decoration:none;color:#1970B0;}
+.fbui a:hover,
+.fbui a:focus,
+.fbui a:active{text-decoration:underline;color:#05386b;}
+
+/** --------
+
+.fbui img{border:0;vertical-align:middle;line-height:0;}
+.fbui input.lotusCheckbox{margin-left:0;margin-right:3px;}
+
+.fbui button,
+.fbui input,
+.fbui select{font-family:Arial, Helvetica, sans-serif;font-size:inherit;}
+
+---*/
+
+.fbLogin .fbui_layout .lotusDescription{padding-left:5px;margin-top:25px;float:left;width:205px;}
+.fbLogin .fbui_layout .lotusLoginContent{position:relative;padding:20px 25px;padding-left:40px;zoom:1;}
+.fbLogin .fbui_layout .lotusLegal{margin:0 auto;text-align:center;color:#666;width:475px;}
+
+.fbLogin .fbui_layout .fbForm{background-color:transparent;}
+.fbLogin .fbui_layout .fbForm .lotusFormError{margin-bottom:-10px;}
+
+
+.fbLogin .fbui_layout .LoginBoxWide .lotusLoginContent{padding-left:25px;}
+
+
+
+
+.fbui_layout .fbLogin .LoginBox h1{margin:0 0 25px 0;padding:0;font-size:1.83333em;font-weight:normal;line-height:1.2;color:#444;}
+.fbui_layout .fbLogin .LoginBox h2{margin:20px 0 5px 0;padding:0;font-size:1.1em;font-weight:bold;line-height:1.3;color:#444;}
+.fbui_layout .fbLogin .LoginBox h2:first-child{margin-top:0;}
+
+
+.fbui_layout .fbForm .lotusFormField{margin-bottom:10px;overflow:hidden;clear:both;zoom:1;}
+.fbui_layout .fbForm .lotusFormTitle .lotusMeta{font-size:1em;}
+.fbui_layout .fbForm label, .lotusui30 .lotusForm2 .lotusFormLabel{display:block;margin-bottom:3px;color:#222;}
+.fbui_layout .fbForm .lotusFormRequired{margin-right:3px;}
+.fbui_layout .fbForm fieldset{margin:0;padding:0;border-width:0;min-width:271px;float:left;}
+.fbui_layout .fbForm .lotusFieldset{padding:0 5px 5px 5px;border:1px solid #aaa;}
+.fbui_layout .fbForm fieldset legend{padding-left:0;padding-right:0;margin-bottom:2px;color:#222;font-weight:normal;}
+.fbui_layout .fbForm .lotusFieldset legend{padding-left:2px;padding-right:2px;}
+.fbui_layout .fbForm label.lotusCheckbox{display:inline;}
+.fbui_layout .fbForm .lotusFormField .lotusMeta{margin-top:5px;}
+.fbui_layout .lotusFormField .lotusFieldWrapper{float:left;}
+.fbui_layout .fbForm fieldset .lotusFieldWrapper{float:none;}
+.fbui_layout .fbForm .lotusText, .lotusui30 .lotusForm2 textarea, .lotusui30 .lotusForm2 select{width:275px;border:1px solid #aaa;padding:3px;}
+.fbui_layout .fbForm textarea.lotusText{overflow:auto;}
+.fbui_layout .fbForm select{padding:1px 0;width:283px;}
+.fbui_layout .fbForm .lotusFormFooter{padding:10px 20px;background-color:#eee;}
+.fbui_layout .fbForm .lotusFormFooter .lotusBtn{margin-right:10px;}
+
+
+
+
+

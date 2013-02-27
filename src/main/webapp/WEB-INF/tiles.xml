@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<tiles-definitions>
+	<definition name="base.definition"
+		template="/WEB-INF/jsp/layout.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="banner" value="/WEB-INF/jsp/banner.jsp" />
+	    <put-attribute name="panel" value="/WEB-INF/jsp/panel.jsp" />
+		<put-attribute name="navbar" value="/WEB-INF/jsp/navbar.jsp" />
+		<put-attribute name="leftcol" value="" />
+		<put-attribute name="centrecol" value="" />
+		<put-attribute name="rightcol" value="" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/footer.jsp" />
+	</definition>
+
+	<definition name="home" extends="base.definition">
+		<put-attribute name="title" value="FusionBayz - Your Space" />
+		<put-attribute name="leftcol" value="/WEB-INF/views/home/homeleft.jsp" />
+		<put-attribute name="centrecol" value="/WEB-INF/views/home/homecentre.jsp" />
+		<put-attribute name="rightcol" value="/WEB-INF/views/home/homeright.jsp" />
+	</definition>
+
+</tiles-definitions>
